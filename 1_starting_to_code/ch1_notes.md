@@ -12,3 +12,10 @@
   * "=" is different from "=="
     * = is used for setting the vaule of a variable.
     * == is used for testing equality.
+
+- Programs make decisions using conditions.
+  * Conditions may have the vaule of true or false.
+
+- Python uses indents for if/else statements, this lets python know the code is grouped.
+
+

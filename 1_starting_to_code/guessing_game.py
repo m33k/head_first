@@ -13,6 +13,18 @@ if guess == 5:
 
 else:
 
-  print ("You lose!")
+ if guess > 5:
+
+    print("Too high!")
+
+ else:
+
+  if guess <= 5:
+
+    print ("Too low!")
+
+  else:
+
+    print ("You lose!")
 
 print("Game over!")
