@@ -1,30 +1,16 @@
 #!/bin/python3.4
 # Description: Gaming exercise
+# Version 3: Make game ask gamer for the number until they guess it correctly.
 
-print("Welcome!")
+answer = 5
 
-g = input("Guess the number: ")
+guess = int(input("Guess the number: "))
 
-guess = int(g)
 
-if guess == 5:
-
-  print("You win!")
-
-else:
-
+while guess != 5:
+ if guess < 5:
+   print("Too Low!")
  if guess > 5:
+   print("Too High!")
+ guess = int(input("Guess the number: "))
 
-    print("Too high!")
-
- else:
-
-  if guess <= 5:
-
-    print ("Too low!")
-
-  else:
-
-    print ("You lose!")
-
-print("Game over!")
